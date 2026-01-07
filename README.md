@@ -1,97 +1,123 @@
-📚 GDSL – Generalised Data Structure Library
-🔹 Overview
+#📚Generalised Data Structures Library
+ProjectName : Created self data structures.
+Technology: C++ Programming
+Author: Aditya Bhaskar Sanap
 
-GDSL (Generalised Data Structure Library) is a reusable and extensible library that provides generic implementations of fundamental data structures using a unified and consistent interface.
-The primary objective of this project is to eliminate data-type dependency and promote code reusability, modularity, and clean design.
-
-This library is ideal for students, system programmers, and interview preparation, offering clear logic and well-structured implementations.
-
-🎯 Objectives
-
-Avoid rewriting data structures for different data types
-
-Provide a single, unified interface for all data structures
-
-Encourage modular and maintainable programming
-
-Improve understanding of internal working of data structures
-
-🧱 Data Structures Implemented
-
-Singly Linked List
-
-Doubly Linked List
-
-Singly Circular Linked List
-
-Doubly Circular Linked List
-
-Stack
-
-Queue
-
-Binary Search Tree
-
-Each data structure supports standard operations such as insertion, deletion, traversal, searching, and counting elements.
-
-✨ Key Features
-
-✔️ Generic & reusable implementations
-
-✔️ Clean and modular code structure
-
-✔️ Standardized operations across data structures
-
-✔️ Easy to integrate into other projects
-
-✔️ Beginner-friendly and interview-oriented
+##🔹Project Overview
+This project is a C++ library of generic data structures that provides object-oriented implementations of both linear and non-linear data structures.
+It offers ready-to-use functionalities for both fundamental and advanced operations. The library is designed using templates so that it can be reused with any data type.
+The implementation follows OOP principles such as encapsulation, modularity, and extensibility, making it suitable for both academic learning and real-world application development.
 
 🛠️ Technologies Used
 
 Language: C / C++
-
 Core Concepts:
+  Pointers & Dynamic Memory Allocation
+  Abstraction & Encapsulation
+  Modular Programming
+  Algorithm Design
 
-Pointers & Dynamic Memory Allocation
+##🔹Key Features
+1. Linear Data Structures:
 
-Abstraction & Encapsulation
+  Singly Linear Linked List
+  Singly Circular Linked List
+  Doubly Linear Linked List
+  Doubly Circular Linked List
+  Stack (LIFO)
+  Queue (FIFO)
+  
+2. Non-Linear Data Structures:
 
-Modular Programming
+  Binary Search Tree (BST) with insert, delete, and traversal operations
+  
+3. Algorithms:
 
-Algorithm Design
+  Searching: Linear Search, Binary Search
+  Sorting: Bubble Sort, Efficient Bubble Sort, Selection Sort, Insertion Sort
+  
+4. Generic Implementation:
 
-🚀 How to Use
+  Uses C++ templates for type independence
+  Same implementation works for integers, floats, strings, and custom objects
+  
+5. Library Format:
 
-Clone the repository:
-git clone https://github.com/Adittoguy/Generalised_Data_Structure_Library.git
+Designed as a reusable C++ library that can be linked with client applications
 
-🧠 Learning Outcomes
+##Learning Outcomes
+  Mastery of C++ Object-Oriented Programming (OOP) principles
+  Strong foundation in linear and non-linear data structures
+  Implementation of generic programming with templates
+  Practical knowledge of searching and sorting algorithms
+  Experience in designing reusable libraries for software development
+  
+##Motivation & Problem Statement
+  Every computer science student and software developer repeatedly needs to implement and use data structures such as linked lists, stacks, queues, trees, and sorting/searching algorithms.
 
-Deep understanding of data structure internals
+  While C++ already provides the STL (Standard Template Library), many learners find it difficult to understand because of its abstract syntax and lack of visibility into internal implementations.
 
-Practical use of abstraction and modular programming
+  Thus, this project solves two main problems:
 
-Improved problem-solving and system-level coding skills
+    1. Educational Purpose → Helping learners understand the internal working of data structures by implementing them from scratch.
+
+    2. Practical Purpose → Providing a reusable, generic library that can be easily linked with other projects (like STL).
+
+##🔹Implemented Data Structures
+1. Linear Data Structures
+  Singly Linked List – supports insertion, deletion, traversal.
+  Singly Circular Linked List – nodes connected circularly.
+  Doubly Linked List – forward and backward traversal.
+  Doubly Circular Linked List – efficient navigation in both directions.
+  Stack (LIFO) – implemented using both array and linked list.
+  Queue (FIFO) – implemented using both array and linked list.
+
+2. Non-Linear Data Structures
+  Binary Search Tree (BST)
+  Insert
+  Delete
+  Search
+  Traversals: Inorder, Preorder, Postorder, Level Order
+
+##🔹 Implemented Algorithms
+  Searching
+  Linear Search
+  Binary Search
+
+##Sorting
+
+  Bubble Sort
+  Optimized Bubble Sort
 
 🔮 Future Enhancements
 
-Template-based implementation (C++)
+  Template-based implementation (C++)
+  Iterator support
+  Error handling & validation
+  Performance benchmarking
+  Documentation generation
 
-Iterator support
+🧠 Learning Outcomes
 
-Error handling & validation
+  Deep understanding of data structure internals
+  Practical use of abstraction and modular programming
+  Improved problem-solving and system-level coding skills
 
-Performance benchmarking
+🚀 How to Use
 
-Documentation generation
+  Clone the repository:
+  git clone https://github.com/Adittoguy/Generalised_Data_Structure_Library.git
 
 👨‍💻 Author
 
-Aditya Sanap
-📌 Aspiring System Programmer & Software Developer
+  Aditya Sanap
+  📌 Aspiring System Programmer & Software Developer
 
 📄 License
 
-This project is open-source and available under the MIT License.
+  This project is open-source and available under the MIT License.
 
 ⭐ If you found this project helpful, consider giving it a star!
+Selection Sort
+
+Insertion Sort
