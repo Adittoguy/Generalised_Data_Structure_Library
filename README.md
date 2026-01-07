@@ -1,24 +1,22 @@
-# Generalised_Data_Structure_Library
+📚 GDSL – Generalised Data Structure Library
+🔹 Overview
 
-🔹 Project Overview
+GDSL (Generalised Data Structure Library) is a reusable and extensible library that provides generic implementations of fundamental data structures using a unified and consistent interface.
+The primary objective of this project is to eliminate data-type dependency and promote code reusability, modularity, and clean design.
 
-The Generalised Data Structure Library (GDSL) is a reusable and extensible library that provides a unified, generic implementation of commonly used data structures. The goal of this project is to eliminate code duplication by offering data-type independent (generalised) operations that can be easily reused across multiple applications.
+This library is ideal for students, system programmers, and interview preparation, offering clear logic and well-structured implementations.
 
-This library is designed with modularity, efficiency, and clarity in mind, making it suitable for academic learning, interview preparation, and real-world system programming projects.
+🎯 Objectives
 
-🔹 Key Features
+Avoid rewriting data structures for different data types
 
-✅ Generic Implementation – Supports multiple data types using abstraction
+Provide a single, unified interface for all data structures
 
-✅ Reusable Codebase – Write once, use across multiple projects
+Encourage modular and maintainable programming
 
-✅ Standard Operations – Insert, Delete, Search, Traverse, Count
+Improve understanding of internal working of data structures
 
-✅ Well-Structured Design – Separation of interface and implementation
-
-✅ Beginner-Friendly – Clean code with logical flow and comments
-
-🔹 Data Structures Implemented
+🧱 Data Structures Implemented
 
 Singly Linked List
 
@@ -34,13 +32,25 @@ Queue
 
 Binary Search Tree
 
-Each data structure follows a common interface, ensuring consistency and ease of use.
+Each data structure supports standard operations such as insertion, deletion, traversal, searching, and counting elements.
 
-🔹 Technologies Used
+✨ Key Features
+
+✔️ Generic & reusable implementations
+
+✔️ Clean and modular code structure
+
+✔️ Standardized operations across data structures
+
+✔️ Easy to integrate into other projects
+
+✔️ Beginner-friendly and interview-oriented
+
+🛠️ Technologies Used
 
 Language: C / C++
 
-Concepts:
+Core Concepts:
 
 Pointers & Dynamic Memory Allocation
 
@@ -48,36 +58,40 @@ Abstraction & Encapsulation
 
 Modular Programming
 
-Algorithmic Optimization
+Algorithm Design
 
-🔹 Project Motivation
+🚀 How to Use
 
-In most beginner and intermediate projects, data structures are rewritten for every new data type. This project demonstrates how generalisation can be applied to build scalable and maintainable libraries, similar to those used in real-world software systems.
+Clone the repository:
+git clone https://github.com/Adittoguy/Generalised_Data_Structure_Library.git
 
-🔹 Who Can Use This?
+🧠 Learning Outcomes
 
-🎓 Students learning Data Structures & Algorithms
+Deep understanding of data structure internals
 
-💻 Developers building system-level or backend projects
+Practical use of abstraction and modular programming
 
-🧠 Candidates preparing for technical interviews
+Improved problem-solving and system-level coding skills
 
-🔹 Future Enhancements
+🔮 Future Enhancements
 
 Template-based implementation (C++)
 
 Iterator support
 
-Exception handling
+Error handling & validation
 
 Performance benchmarking
 
-🔹 How to Use
+Documentation generation
 
-Clone the repository
+👨‍💻 Author
 
-Include the required header files
+Aditya Sanap
+📌 Aspiring System Programmer & Software Developer
 
-Link the library with your project
+📄 License
 
-Start using generic data structures
+This project is open-source and available under the MIT License.
+
+⭐ If you found this project helpful, consider giving it a star!
